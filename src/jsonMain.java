@@ -11,11 +11,11 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 
-public class jsontest {
+public class jsonMain{
     private static JSONTokener jsonOut;
 
     public static void main(String myHelpers[]) throws JSONException, IOException {
-        String h="/home/saeed/NetBeansProjects/JavaApplication10/src/peaple.json";
+        String h="/home/saeed/NetBeansProjects/JavaApplication10/src/people.json";
                JSONObject req;
         req = new JSONObject(readFile(h));
         JSONObject locs = req.getJSONObject("Userr");

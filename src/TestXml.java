@@ -13,7 +13,7 @@ import org.w3c.dom.NodeList;
  * 
  * @author Huseyin OZVEREN
  */
-public class Test {
+public class TestXml {
 
 	public static void main(String[] args) throws Exception {
 
@@ -23,7 +23,7 @@ public class Test {
 		DocumentBuilder docBuilder = factory.newDocumentBuilder();
 
 		// XML Stream
-		InputStream xmlStream = Test.class.getResourceAsStream("people.xml");
+		InputStream xmlStream = TestXml.class.getResourceAsStream("people.xml");
 		
 		// Parse the given XML document 
 		// in order to build a DOM tree representing the XML document
