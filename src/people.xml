@@ -1,42 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Userr>
-  <User ID="1">
-    
+  <User>
+    <Id>1</Id>
     <name>said h</name>
-    <friend>mahmood </friend>
-        <friend>saly</friend>
-    <friend>samer</friend>
-
+    
     <born>19 May 1925</born>
         <address>Hebron</address>
 <nationality>american</nationality>
 <tel>06688554477</tel>
-  </User>
-  <User ID="2">
-   
-    <name>Mahmood f</name>
-    <friend>ali</friend>
-        <friend>saly</friend>
-    <friend>mutaz</friend>
+<friendsip>
 
-    <born>2 October 1869</born>
+    <friend>2,3</friend>
+</friendsip>
+
+  </User>
+  
+  <User>
+       <Id>2</Id>
+
+    <name>Mahmood f</name>
+     <born>2 October 1869</born>
         <address>Ramallah</address>
 
     <nationality>Palestinen</nationality>
     <tel>055565566</tel>
+<friendsip>
+    <friend>1,3</friend>
+ </friendsip>
+
+
+   
 
 </User>
-  <User ID="3">
-  
-    <name>Saeed f</name>
-    <friend>mahmood omar </friend>
-        <friend>nidal</friend>
-    <friend>eyad</friend>
+  <User>
+      <Id>3</Id>
 
+    <name>Saeed f</name>
+    
         <address>Nablis</address>
     <born>20 January 1961</born>
 	<nationality>american</nationality>
         <tel>0555777664</tel>
+
+<friendsip>
+
+    <friend>1,2</friend>
+</friendsip>
 
   </User>
 </Userr>

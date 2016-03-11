@@ -48,26 +48,28 @@ public class Test {
 			if (nodeName.equals("User")) {
 				peopleCount++;
 				System.out.println("User " + peopleCount);
-				String personId = element.getAttribute("ID");
-				System.out.println("\tID:\t" + personId);
+				
 			
-			} else if (nodeName.equals("name")) {
+			}
+                        else if (nodeName.equals("Id")) {
+                        	System.out.println("\tId:" + element.getChildNodes().item(0).getNodeValue());
+                        }       else if (nodeName.equals("name")) {
 				System.out.println("\tName:\t" + element.getChildNodes().item(0).getNodeValue());
                         }else if (nodeName.equals("friend")) {
 				System.out.println("\tFriend:\t" + element.getChildNodes().item(0).getNodeValue());
         
                                 
 			} else if (nodeName.equals("born")) {
-				System.out.println("\tborn:\t" + element.getChildNodes().item(0).getNodeValue());
+				System.out.println("\tborn:" + element.getChildNodes().item(0).getNodeValue());
 			}
                         else if (nodeName.equals("address")) {
-				System.out.println("\taddress:\t" + element.getChildNodes().item(0).getNodeValue());
+				System.out.println("\taddress:" + element.getChildNodes().item(0).getNodeValue());
 			}
                       else if (nodeName.equals("nationality")) {
-				System.out.println("\tnationality:\t" + element.getChildNodes().item(0).getNodeValue());
+				System.out.println("\tnationality:" + element.getChildNodes().item(0).getNodeValue());
 			}  
                         else if (nodeName.equals("tel")) {
-				System.out.println("\ttel:\t" + element.getChildNodes().item(0).getNodeValue());
+				System.out.println("\ttel:" + element.getChildNodes().item(0).getNodeValue());
 			}   
 		} // end-for
 	}
